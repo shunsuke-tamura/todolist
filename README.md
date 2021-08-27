@@ -3,6 +3,6 @@
   
 goのパッケージ管理はgo.mod  
   
-メモっときたいコマンド
+メモっときたいコマンド  
 `docker-compose up --build`
 `docker exec -it todolist go ....`
