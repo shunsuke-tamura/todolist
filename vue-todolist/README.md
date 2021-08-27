@@ -5,29 +5,3 @@ vueをDockerで動かす
 3. `vue create <名前>` を実行する
 4. 色々設定する
 5. 何もかも作られる(ディレクトリ構造、.gitignore、package.json等)
-
-
-# vue-todolist
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
