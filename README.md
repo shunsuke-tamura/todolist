@@ -4,5 +4,5 @@
 goのパッケージ管理はgo.mod  
   
 メモっときたいコマンド  
-`docker-compose up --build`
+`docker-compose up --build`  
 `docker exec -it todolist go ....`
