@@ -1,6 +1,6 @@
 FROM node:14.15.0-alpine
 
-WORKDIR /code
+WORKDIR /frontend
 
 COPY . /frontend
 RUN npm install

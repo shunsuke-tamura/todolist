@@ -1,11 +1,11 @@
 FROM golang:1.16
 
-COPY go.mod /code/go.mod
-COPY go.sum /code/go.sum
-WORKDIR /code
+COPY go.mod /backend/go.mod
+COPY go.sum /backend/go.sum
+WORKDIR /backend
 RUN ls
 RUN go mod download
 
-COPY . /code
+COPY . /backend
 
 CMD go run main.go
