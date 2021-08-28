@@ -3,7 +3,7 @@ services:
   backend:
     container_name: "backend"
     volumes:
-      - ./backend:/code
+      - ./backend:/backend
     tty: true
     build:
       context: ./backend
@@ -13,8 +13,10 @@ services:
   frontend:
     container_name: "frontend"
     volumes:
-      - .:/code
+      - ./frontend:/frontend
     tty: true
     build:
-      context: .
+      context: ./frontend
       dockerfile: ./Dockerfile
+    ports:
+      - 8080:8080
