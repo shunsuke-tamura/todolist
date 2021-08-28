@@ -10,3 +10,11 @@ services:
       dockerfile: ./Dockerfile
     ports:
       - 8000:8000
+  frontend:
+    container_name: "frontend"
+    volumes:
+      - .:/code
+    tty: true
+    build:
+      context: .
+      dockerfile: ./Dockerfile
